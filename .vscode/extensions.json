@@ -1,7 +1,5 @@
 {
     "recommendations": [
-        "formulahendry.auto-close-tag",
-        "formulahendry.auto-rename-tag",
         "coenraads.bracket-pair-colorizer",
         "streetsidesoftware.code-spell-checker",
         "pranaygp.vscode-css-peek",

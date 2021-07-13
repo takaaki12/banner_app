@@ -1,2 +1,10 @@
 <h1>Banners#index</h1>
-<p>Find me in app/views/banners/index.html.erb</p>
+<p>バナーの簡易版動作確認</p>
+<%= link_to "戻る", banners_new_path %>
+<div class="popup" id="js-popup">
+  <div class="popup-inner">
+    <div class="close-btn" id="js-close-btn"><i class="fas fa-times"></i></div>
+    <a href="#"><img src="./img/popup.jpg" alt="ポップアップ画像"></a>
+  </div>
+  <div class="black-background" id="js-black-bg"></div>
+</div>
