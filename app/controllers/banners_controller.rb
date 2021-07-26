@@ -1,8 +1,7 @@
 class BannersController < ApplicationController
-  def index
+  def pop_up
   end
 
-  def new
+  def slide
   end
-    
 end
