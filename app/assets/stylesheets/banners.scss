@@ -1,0 +1,63 @@
+// Place all the styles related to the banners controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  position: relative;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+  }
+  .popup.is-show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .popup-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff00;
+    z-index: 2;
+  }
+  
+  .popup-inner img {
+    height: 50%;
+  }
+
+  .close-btn {
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    // line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+  }
+
+  .close-btn i {
+    font-size: 20px;
+    color: #333;
+    margin-top: auto;
+  }
+  
+  .black-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1;
+    cursor: pointer;
+  }

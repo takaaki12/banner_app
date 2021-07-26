@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "coenraads.bracket-pair-colorizer",
+        "streetsidesoftware.code-spell-checker",
+        "pranaygp.vscode-css-peek",
+        "hediet.vscode-drawio",
+        "craigmaslowski.erb",
+        "mhutchie.git-graph",
+        "oderwat.indent-rainbow",
+        "bung87.rails",
+        "aki77.rails-db-schema",
+        "sporto.rails-go-to-spec",
+        "hridoy.rails-snippets",
+        "wingrunr21.vscode-ruby",
+        "mosapride.zenkaku"
+    ]
+}
